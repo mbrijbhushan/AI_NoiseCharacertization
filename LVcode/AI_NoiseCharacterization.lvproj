@@ -1,7 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="NI.Project.Description" Type="Str">Designed for the myRIO, extends to other RIO based systems such as cRIO.
+
+FPGA: Samples code at a variable rate, applies a settable low-pass filter in the Analog Input (AI) chain. Also has ability to output a specified AO value or 100 times the AI value after the low-pass filter to view on an oscilloscope.
+
+RT-target: Reads data from FPGA at a specified loop rate for transfer to Host-PC over TCP/IP for analysis. Also provides a UI to modify FPGA controls as needed. 
+
+Host-PC: Reads data from the RT-target and performs spectral analysis - Power Spectral Density and Cumulative Power Spectrum and plots them in the UI.</Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
 	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
 	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
@@ -1771,7 +1777,7 @@ AddOutputFilter chunkFilter
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 					<Item Name="FPGA Main_v3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
