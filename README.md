@@ -1,7 +1,7 @@
 # AI_NoiseCharacertization
  Characterize noise of AI signals using Power Spectral Denisty and Cumulative Power Spectrum
  
-Designed for the myRIO, extends to other RIO based systems such as cRIO.
+Noise Characterization of AI chain - useful to characterize sensor noise coming into the main control loop. Designed for the myRIO, extends to other RIO based systems such as cRIO.
 
 **FPGA:** Samples code at a variable rate, applies a settable low-pass filter in the Analog Input (AI) chain. Also has ability to output a specified AO value or 100 times the AI value after the low-pass filter to view on an oscilloscope.
 
