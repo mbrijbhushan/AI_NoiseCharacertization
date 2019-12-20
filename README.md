@@ -15,7 +15,7 @@ Run RT Code and then PC code. Open AI_NoiseCharacterization.lvproj and then Run 
 
 ![Host-PC front panel](ReadME_images/Host-PC_UI.png "Host-PC front panel")
 
-To run this in LabVIEW, you will need to dowload and install the following packages from [VI Package Manager](http://www.ni.com/tutorial/54770/en/):
+To run this in LabVIEW, dowload and install the following packages from [VI Package Manager](http://www.ni.com/tutorial/54770/en/):
 1. Simple Messagine Library (STM) - [vipm://ni_lib_stm/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm](vipm://ni_lib_stm/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm)
 2. Structured Error Handler (SEH) - [vipm://ni_lib_seh/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm](vipm://ni_lib_seh/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm)
 
