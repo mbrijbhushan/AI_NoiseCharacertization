@@ -9,7 +9,7 @@ Noise Characterization of AI chain - useful to characterize sensor noise coming 
 
 **Host-PC:** Reads data from the RT-target and performs spectral analysis - Power Spectral Density and Cumulative Power Spectrum and plots them in the UI.
 
-Run RT Code and then PC code. Open AI_NoiseCharacterization.lvproj and then Run RT_AIChar_v2.viand after it is running, also run the PC_AIChar_v2.vi. The Histogram and PSD is in the PC_AIChar VI. You can select various options for AI sampling in the RT_AIChar VI.
+**Run RT Code and then PC code.** Open AI_NoiseCharacterization.lvproj and then Run RT_AIChar_v2.vi. After the RT_AIChar_v2.vi is running, also run the PC_AIChar_v2.vi. The Histogram and PSD analysis is in the PC_AIChar VI. You can select various options for AI sampling in the RT_AIChar VI.
 
 ![RT-target front panel](ReadME_images/RT_UI.png "RT-target front panel")
 
@@ -18,4 +18,3 @@ Run RT Code and then PC code. Open AI_NoiseCharacterization.lvproj and then Run 
 To run this in LabVIEW, dowload and install the following packages from [VI Package Manager](http://www.ni.com/tutorial/54770/en/):
 1. Simple Messagine Library (STM) - [vipm://ni_lib_stm/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm](vipm://ni_lib_stm/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm)
 2. Structured Error Handler (SEH) - [vipm://ni_lib_seh/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm](vipm://ni_lib_seh/?repo_url=http:/ftp.ni.com/evaluation/labview/lvtn/vipm)
-
