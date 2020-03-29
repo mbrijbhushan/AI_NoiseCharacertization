@@ -1,7 +1,7 @@
 # AI_NoiseCharacertization
  Characterize noise of AI signals using Power Spectral Denisty and Cumulative Power Spectrum
  
-Noise Characterization of AI chain - useful to characterize sensor noise coming into the main control loop. Designed for the myRIO, extends to other RIO based systems such as cRIO.
+Noise Characterization of AI chain - useful to characterize sensor noise coming into the main control loop. Designed for the myRIO and cRIO, extends to other RIO based systems.
 
 **FPGA:** Samples code at a variable rate, applies a settable low-pass filter in the Analog Input (AI) chain. Also has ability to output a specified AO value or 100 times the AI value after the low-pass filter to view on an oscilloscope.
 
@@ -9,7 +9,7 @@ Noise Characterization of AI chain - useful to characterize sensor noise coming 
 
 **Host-PC:** Reads data from the RT-target and performs spectral analysis - Power Spectral Density and Cumulative Power Spectrum and plots them in the UI.
 
-**Run RT Code and then PC code.** Open AI_NoiseCharacterization.lvproj and then Run RT_AIChar_v2.vi. After the RT_AIChar_v2.vi is running, also run the PC_AIChar_v2.vi. The Histogram and PSD analysis is in the PC_AIChar VI. You can select various options for AI sampling in the RT_AIChar VI.
+**Run RT Code and then PC code.** Open AI_NoiseCharacterization.lvproj and then Run RT_AIChar_v2.vi. After the RT_AIChar_v2.vi is running, also run the PC_AIChar_v2.vi. The Histogram and PSD analysis is in the PC_AIChar VI. You can select various options for AI sampling in the RT_AIChar VI. Select the correct Target to set the IP address for the STM messaging server.
 
 ![RT-target front panel](ReadME_images/RT_UI.png "RT-target front panel")
 
