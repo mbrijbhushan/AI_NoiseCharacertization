@@ -1743,9 +1743,6 @@ AddOutputFilter chunkFilter
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
-					<Item Name="FPGA functions.lvlib" Type="Library" URL="../FPGA/FPGA functions/FPGA functions.lvlib"/>
-					<Item Name="AO mode TabCtrl.ctl" Type="VI" URL="../FPGA/TypeDefs/AO mode TabCtrl.ctl"/>
-					<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Main_v2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2780,6 +2777,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
 			<Item Name="Timing.lvlib" Type="Library" URL="../Components/Timing/Timing.lvlib"/>
 			<Item Name="AI_channelEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/AI_channelEnum.ctl"/>
+			<Item Name="ainoisecharacter_FPGATarget2_FPGAcRIOMainv3_ZecnOIZdwM0.lvbitx" Type="Document" URL="../FPGA Bitfiles/ainoisecharacter_FPGATarget2_FPGAcRIOMainv3_ZecnOIZdwM0.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
