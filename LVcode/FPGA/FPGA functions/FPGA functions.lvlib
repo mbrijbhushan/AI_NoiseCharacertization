@@ -19,4 +19,5 @@
 	<Item Name="LeadLagDiffEqn.vi" Type="VI" URL="../LeadLagDiffEqn.vi"/>
 	<Item Name="Int2FXP_4ptMovAvg_Quantize.vi" Type="VI" URL="../Int2FXP_4ptMovAvg_Quantize.vi"/>
 	<Item Name="Int2FXP_Quantize.vi" Type="VI" URL="../Int2FXP_Quantize.vi"/>
+	<Item Name="MovingAvg_v5.vi" Type="VI" URL="../MovingAvg_v5.vi"/>
 </Library>
