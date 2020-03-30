@@ -2671,6 +2671,10 @@ AddOutputFilter chunkFilter
 						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
+					<Item Name="AO mode TabCtrl.ctl" Type="VI" URL="../FPGA/TypeDefs/AO mode TabCtrl.ctl"/>
+					<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
+					<Item Name="AI_channelEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/AI_channelEnum.ctl"/>
+					<Item Name="FPGA functions.lvlib" Type="Library" URL="../FPGA/FPGA functions/FPGA functions.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA cRIOMain_v3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
