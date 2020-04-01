@@ -1750,9 +1750,6 @@ AddOutputFilter chunkFilter
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="AO mode TabCtrl.ctl" Type="VI" URL="../FPGA/TypeDefs/AO mode TabCtrl.ctl"/>
-					<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
-					<Item Name="FPGA functions.lvlib" Type="Library" URL="../FPGA/FPGA functions/FPGA functions.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Main_v2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1936,6 +1933,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
 			<Item Name="Timing.lvlib" Type="Library" URL="../Components/Timing/Timing.lvlib"/>
 			<Item Name="adc,dacnoisemeas_FPGATarget_FPGAMainv3_mK2rDMr4N+c.lvbitx" Type="Document" URL="../FPGA Bitfiles/adc,dacnoisemeas_FPGATarget_FPGAMainv3_mK2rDMr4N+c.lvbitx"/>
+			<Item Name="ainoisecharacter_FPGATarget_FPGAmyRIOMainv4_RgCHG36H-ZA.lvbitx" Type="Document" URL="../FPGA Bitfiles/ainoisecharacter_FPGATarget_FPGAmyRIOMainv4_RgCHG36H-ZA.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2725,6 +2723,10 @@ AddOutputFilter chunkFilter
 						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
+					<Item Name="AO mode TabCtrl.ctl" Type="VI" URL="../FPGA/TypeDefs/AO mode TabCtrl.ctl"/>
+					<Item Name="SamplingModeEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/SamplingModeEnum.ctl"/>
+					<Item Name="AI_channelEnum.ctl" Type="VI" URL="../FPGA/TypeDefs/AI_channelEnum.ctl"/>
+					<Item Name="FPGA functions.lvlib" Type="Library" URL="../FPGA/FPGA functions/FPGA functions.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA cRIOMain_v3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
