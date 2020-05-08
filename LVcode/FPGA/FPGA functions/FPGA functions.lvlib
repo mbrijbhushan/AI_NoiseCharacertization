@@ -15,12 +15,19 @@
 	<Item Name="Attenuate.vi" Type="VI" URL="../Attenuate.vi"/>
 	<Item Name="FXP2Int.vi" Type="VI" URL="../FXP2Int.vi"/>
 	<Item Name="Int2FXP.vi" Type="VI" URL="../Int2FXP.vi"/>
-	<Item Name="MovingAverage.vi" Type="VI" URL="../MovingAverage.vi"/>
-	<Item Name="MovingAverage_v2.vi" Type="VI" URL="../MovingAverage_v2.vi"/>
+	<Item Name="myRIO_4ptMovingAverage.vi" Type="VI" URL="../myRIO_4ptMovingAverage.vi"/>
+	<Item Name="myRIO_4ptMovingAverage_v2.vi" Type="VI" URL="../myRIO_4ptMovingAverage_v2.vi"/>
+	<Item Name="myRIO_16ptMovingAverage_v2.vi" Type="VI" URL="../myRIO_16ptMovingAverage_v2.vi"/>
+	<Item Name="myRIO_64ptMovingAverage.vi" Type="VI" URL="../myRIO_64ptMovingAverage.vi"/>
+	<Item Name="myRIO_128ptMovingAverage.vi" Type="VI" URL="../myRIO_128ptMovingAverage.vi"/>
+	<Item Name="myRIO_256ptMovingAverage.vi" Type="VI" URL="../myRIO_256ptMovingAverage.vi"/>
 	<Item Name="LeadLagDiffEqn.vi" Type="VI" URL="../LeadLagDiffEqn.vi"/>
 	<Item Name="Int2FXP_4ptMovAvg_Quantize.vi" Type="VI" URL="../Int2FXP_4ptMovAvg_Quantize.vi"/>
 	<Item Name="Int2FXP_Quantize.vi" Type="VI" URL="../Int2FXP_Quantize.vi"/>
 	<Item Name="4ptMovingAvg_v5.vi" Type="VI" URL="../4ptMovingAvg_v5.vi"/>
 	<Item Name="4ptMovingAvg_v6.vi" Type="VI" URL="../4ptMovingAvg_v6.vi"/>
-	<Item Name="16ptMovingAvg_v6.vi" Type="VI" URL="../16ptMovingAvg_v6.vi"/>
+	<Item Name="16ptMovingAvg.vi" Type="VI" URL="../16ptMovingAvg.vi"/>
+	<Item Name="64ptMovingAvg.vi" Type="VI" URL="../64ptMovingAvg.vi"/>
+	<Item Name="128ptMovingAvg.vi" Type="VI" URL="../128ptMovingAvg.vi"/>
+	<Item Name="256ptMovingAvg.vi" Type="VI" URL="../256ptMovingAvg.vi"/>
 </Library>
