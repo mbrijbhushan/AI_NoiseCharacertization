@@ -1,5 +1,5 @@
 # Analog Input Noise Characertization
- Characterize noise of AI signals using Power Spectral Denisty and Cumulative Power Spectrum
+ Characterize noise of Analog input signals captured using an NI hardware ADC using Power Spectral Denisty and Cumulative Power Spectrum
  
 Noise Characterization of AI chain - useful to characterize sensor noise coming into the main control loop. Designed for the myRIO and cRIO, extends to other RIO based systems.
 
